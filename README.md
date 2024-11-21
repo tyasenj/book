@@ -214,8 +214,6 @@ Buat class LocationScreen di dalam file geolocation.dart
 
 ### Langkah 5: Isi kode geolocation.dart
 
-<img src = "assets/gambar_30.jpg">
-
 **Soal 11**
 
 Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
@@ -306,14 +304,92 @@ Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerja
 
 2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 14".
 
-<img src = "assets/gambar_43.gif">
+<img src = "assets\gambar_42 (2).gif">
 
 ---
 
-### Langkah 8: Tambahkan animasi loading
+## Praktikum 8: Navigation route dengan Future Function
 
-<img src = "assets/gambar_34.jpg">
+### Langkah 1: Buat file baru navigation_first.dart
 
-### Langkah 8: Tambahkan animasi loading
+### Langkah 2: Isi kode navigation_first.dart
 
-<img src = "assets/gambar_34.jpg">
+<img src = "assets/gambar_44.jpg">
+
+**Soal 15**
+
+<img src = "assets/gambar_48.jpg">
+
+### Langkah 3: Tambah method di class \_NavigationFirstState
+
+<img src = "assets/gambar_45.jpg">
+
+### Langkah 4: Buat file baru navigation_second.dart
+
+### Langkah 5: Buat class NavigationSecond dengan StatefulWidget
+
+<img src = "assets/gambar_46.jpg">
+
+### Langkah 6: Edit main.dart
+
+<img src = "assets/gambar_47.jpg">
+
+### Langkah 8: Run
+
+<img src = "assets/gambar_49.gif">
+
+**Soal 16**
+
+1. Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+
+   Ketika Anda mengklik salah satu tombol di halaman kedua (NavigationSecond), warna yang terkait dengan tombol tersebut akan dikirim kembali ke halaman pertama (NavigationFirst). Ini terjadi karena tombol pada halaman kedua menggunakan Navigator.pop() untuk "kembali" ke halaman pertama sambil mengirimkan data (warna).
+
+2. Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+
+Saya mengganti warna dengan Pink, Ungu, dan Kuning.
+
+<img src = "assets/gambar_50.jpg">
+
+3. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 16".
+
+<img src = "assets/gambar_51.gif">
+
+---
+
+## Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
+
+### Langkah 1: Buat file baru navigation_dialog.dart
+
+### Langkah 2: Isi kode navigation_dialog.dart
+
+<img src = "assets/gambar_52.jpg">
+
+### Langkah 3: Tambah method async
+
+<img src = "assets/gambar_53.jpg">
+
+### Langkah 4: Panggil method di ElevatedButton
+
+<img src = "assets/gambar_54.jpg">
+
+### Langkah 5: Edit main.dart
+
+<img src = "assets/gambar_55.jpg">
+
+### Langkah 6: Run
+
+<img src = "assets/gambar_57.gif">
+
+**Soal 17**
+
+1. Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+
+   StatefulWidget dan setState() memastikan bahwa perubahan yang terjadi dalam UI bisa langsung diterapkan ketika ada perubahan pada data atau status aplikasi (dalam hal ini, warna). Dengan setiap interaksi tombol, state baru diterapkan, dan tampilan diperbarui.
+
+2. Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+
+<img src = "assets/gambar_56.jpg">
+
+3. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 17".
+
+<img src = "assets/gambar_58.gif">
