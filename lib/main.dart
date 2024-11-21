@@ -1,4 +1,4 @@
-import 'geolocation.dart';
+import 'navigation_first.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const LocationScreen(),
+      home: const NavigationFirst(),
     );
   }
 }
